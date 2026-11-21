@@ -1,0 +1,26 @@
+#include <stdio.h>
+int main()
+{
+    int a, b;
+    printf("Enter two integers: ");
+    scanf("%d %d", &a, &b);
+    printf("Sum = %d\n", a+b);
+    printf("Differnce = %d\n", a-b);
+    printf("Product = %d\n", a*b);
+    if (b!=0){
+
+        printf("Division = %d\n", a/b);
+        printf("Remainder = %d\n", a%b);
+
+    }
+    else{
+        printf("Division and remainder are not possible");
+    }
+    return 0;
+
+
+}
+
+
+
+
